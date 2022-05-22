@@ -1,0 +1,254 @@
+@font-face {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   src: url(../fonts/georgiaz.ttf),
+      url(/fonts/georgia.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: gray;
+}
+
+.container {
+   height: 2000px;
+   width: 1000px;
+   margin: auto;
+   background: rgb(255, 255, 255);
+   position: relative;
+}
+
+.header {
+   position: relative;
+}
+
+.header__menu {
+   height: 60px;
+   width: 1000px;
+   position: relative;
+   color: rgb(39, 58, 30);
+}
+
+.header__menu__contact {
+   position: absolute;
+   right: 40px;
+   top: 10px;
+}
+
+.header__menu__contact__number {
+   text-align: right;
+}
+
+.header div {
+   outline: none;
+}
+
+.header__menu a {
+   text-decoration: none;
+   color: rgb(39, 58, 30);
+}
+
+.header__main {
+   height: 170px;
+   position: relative;
+}
+
+.header__main__image {
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   background: url(../images/image.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   left: 70px;
+   top: 15px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.header__main__name {
+   position: absolute;
+   left: 240px;
+   top: 10px;
+}
+
+.header__main__name__title {
+   color: rgb(15, 63, 3);
+   font-size: 50px;
+   position: absolute;
+   top: 25px;
+   left: 180px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__main__name__description {
+   color: white;
+   font-size: 19px;
+   right: 10px;
+   padding: 23px;
+   text-align: center;
+   position: relative;
+   top: 150px;
+   right: 110px;
+   color: rgb(236, 240, 197);
+}
+
+.header__main__name__image {
+   height: 35px;
+   position: absolute;
+   left: 150px;
+   top: 85px;
+   color: rgb(141, 155, 0);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__header {
+   background-image: url(../images/общая.jpg);
+   height: 250px;
+   background-position: center;
+   background-size: 910px 345px;
+   background-repeat: no-repeat;
+}
+
+.header__menu__link {
+   position: absolute;
+   top: 20px;
+   text-decoration: none;
+}
+
+.header__menu__link__catalog {
+   left: 50px;
+}
+
+.header__menu__link__delivery {
+   left: 170px;
+}
+
+.header__menu__link__contacts {
+   left: 300px;
+}
+
+.content {
+   position: relative;
+   padding: 20px;
+}
+
+.content__card {
+   width: 25%;
+}
+
+.content__card__image {
+   width: 200px;
+   height: 180px;
+   margin: auto;
+   border-radius: 10%;
+}
+
+.content__card__image__one {
+   background-image: url(../images/редис.jpg);
+}
+
+.content__card__image__background {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.content__card__title {
+   text-align: center;
+}
+
+.content__card__part {
+   width: 200px;
+   margin: auto;
+   margin-top: 10px;
+}
+
+.content__card__position {
+   position: absolute;
+   bottom: 0;
+   top: 20px;
+}
+
+.content__card__two {
+   left: 250px;
+}
+
+.content__card__three {
+   left: 490px;
+}
+
+.content__card__four {
+   left: 735px;
+}
+
+.content__card__image__two {
+   background-image: url(../images/амарант.jpg);
+}
+
+.content__card__image__three {
+   background-image: url(../images/кресс-салат.jpg);
+}
+
+.content__card__image__four {
+   background-image: url(../images/подсолнечник.jpg);
+}
+
+.content__card__button {
+   position: relative;
+   left: 65px;
+}
+
+
+.button {
+   background: green;
+   border-radius: 5px;
+   width: max-content;
+   text-align: center;
+   color: white;
+   padding: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 1000px;
+   height: max-content;
+   background: black;
+   color: white;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+
+.footer li {
+   display: inline-block;
+   position: relative;
+   margin-right: 40px;
+   left: 15px;
+}
+
+.footer__contact {
+   padding: 10px;
+}
+
+.footer a {
+   text-decoration: none;
+}
+
+.footer__contact__information {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   padding: 10px;
+   text-align: right;
+}
+
+/* .footer__contact__information__phone {
+
+
+/* .footer__contact__information__address {} */
