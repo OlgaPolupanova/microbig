@@ -25,20 +25,20 @@ body {
    position: relative;
 }
 
-.header__menu {
+.menu {
    height: 60px;
    width: 1000px;
    position: relative;
    color: rgb(39, 58, 30);
 }
 
-.header__menu__contact {
+.menu__contact {
    position: absolute;
    right: 40px;
    top: 10px;
 }
 
-.header__menu__contact__number {
+.menu__contact__number {
    text-align: right;
 }
 
@@ -46,7 +46,7 @@ body {
    outline: none;
 }
 
-.header__menu a {
+.menu a {
    text-decoration: none;
    color: rgb(39, 58, 30);
 }
@@ -113,21 +113,21 @@ body {
    background-repeat: no-repeat;
 }
 
-.header__menu__link {
+.menu__link {
    position: absolute;
    top: 20px;
    text-decoration: none;
 }
 
-.header__menu__link__catalog {
+.menu__link__catalog {
    left: 50px;
 }
 
-.header__menu__link__delivery {
+.menu__link__delivery {
    left: 170px;
 }
 
-.header__menu__link__contacts {
+.menu__link__contacts {
    left: 300px;
 }
 
